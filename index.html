@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your Personal Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="logo">Spotify</li>
+            <a><li>Home</li></a>
+            <a><li>About</li></a>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1 class="heading"> Best sad songs</h1>
+            <div class="songItemContainer">
+            <div class="songitem">
+                <img src="covers/1.jpg" alt="1">
+                <span class="songname">marrioyo</span>
+                <span class="songdisplay"><span class="timestamp">5.34<i id="0"class="fa-solid songitemplay fa-play" id="logog"></i></span></span>
+            </div>
+
+            <div class="songitem">
+                <img src="covers/2.jpg" alt="1">
+                <span>BhulaDena</span>
+                <span class="songdisplay"><span class="timestamp">5.34<i id="1" class="fa-solid songitemplay fa-play" id="logog"></i></span></span>
+            </div>
+
+            <div class="songitem">
+                <img src="covers/3.jpg" alt="1">
+                <span class="songname">tumharekasam</span>
+                <span class="songdisplay"><span class="timestamp">5.34<i id="2" class="fa-solid songitemplay fa-play" id="logog"></i></span></span>
+            </div>
+
+            <div class="songitem">
+                <img src="covers/4.jpg" alt="1">
+                <span  class="songname">salam-e-ishq</span>
+                <span class="songdisplay"><span class="timestamp">5.34<i id="3"class="fa-solid songitemplay fa-play" id="logog"></i></span></span>
+            </div>
+
+            <div class="songitem">
+                <img src="covers/5.jpg" alt="1">
+                <span class="songname">Let Me Love You</span>
+                <span class="songdisplay"><span class="timestamp">5.34<i id="4" class="fa-solid songitemplay fa-play" id="logog"></i></span></span>
+            </div>
+
+            <div class="songitem">
+                <img src="covers/6.jpg" alt="1">
+                <span class="songname">Let Me Love You</span>
+                <span class="songdisplay"><span class="timestamp">5.34<i id="5"class="fa-solid songitemplay fa-play" id="logog"></i></span></span>
+            </div>
+
+            <div class="songitem">
+                <img src="covers/7.jpg" alt="1">
+                <span  class="songname">Let Me Love You</span>
+                <span class="songdisplay"><span class="timestamp">5.34<i id="6"class="fa-solid songitemplay fa-play" id="logog"></i></span></span>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="myprogressbar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fa-solid fa-forward-fast"></i>
+            <i class="fa-solid fa-play" id="masterplay"></i>
+            <i class="fa-solid fa-backward-fast"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" alt="" width="42px" id="gif">Let-Me Love You Justin Beiber
+        </div>
+        </div>
+    <script src="https://kit.fontawesome.com/f1ee8fdb4e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
